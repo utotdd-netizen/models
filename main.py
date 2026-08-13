@@ -7,7 +7,7 @@ app = FastAPI()
 print("Downloading and Loading Llama-3.2-1B-Instruct...")
 llm = Llama.from_pretrained(
     repo_id="bartowski/Llama-3.2-1B-Instruct-GGUF",
-    filename="Llama-3.2-1B-Instruct-IQ2_M.gguf",
+    filename="Llama-3.2-1B-Instruct-Q2_K.gguf",
     n_ctx=256,        
     n_threads=1       
 )
